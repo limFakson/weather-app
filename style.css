@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     height: 100vh;
     display: flex;
@@ -13,6 +14,7 @@ body {
     font-family: sans-serif;
     color: #fff;
 }
+
 .location {
     height: 30vh;
     width: 50%;
@@ -20,18 +22,26 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
 .temperature {
     flex-direction: column;
 }
+
 .degree-section {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
 .degree-section span {
     margin: 10px;
     font-size: 30px;
 }
+
 .degree-section h2 {
     font-size: 40px;
+}
+
+.icon {
+    margin-right: 30px;
 }
